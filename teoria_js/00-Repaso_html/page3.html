@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <style>
+        html, body {
+            font-family: Verdana;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+        
+        .header {
+            margin-top: -20px;
+            margin-bottom: 45px;
+            width: 100%;
+            background-color: rgba(255, 102, 0, 0.301);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        li {
+            background-color: rgb(255, 255, 255);
+            border-radius: 4px;
+            padding: 5px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 20px 15px;
+        }
+
+        li:hover {
+            background-color: black;
+            scale: 1.1;
+        }
+
+        li:hover a{
+            color: rgb(245, 245, 139);
+        }
+
+        a {
+            color: black;
+            display: inline-block;
+            text-align: center;
+            font-size: 17px;
+            text-decoration: none;
+        }
+
+        h1 {
+            padding-bottom: 30px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-top: -10px;
+            text-align: center;
+        }
+
+        tr td img {
+            height: 300px;
+            width: 400px;
+            padding: 25px;
+        }
+
+        table {
+            background-color: rgb(226, 231, 235);
+            border-collapse: collapse;
+        }
+
+        tr, td {
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .info {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 25px;
+            text-align: justify;
+        }
+
+        .footer {
+            font-family: Verdana;
+            background-color: rgba(255, 102, 0, 0.301);
+            text-align: center;
+            font-size: 15px;
+            margin-top: 20px;
+            width: 100%;
+            padding: 10px 0;
+            position: fixed; 
+            bottom: 0; 
+            left: 0;
+        }
+
+        .th {
+            font-weight: bold;
+        }
+
+        form {
+            padding: 50px 0px;
+            background-color: rgba(255, 139, 62, 0.719);
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            width: 20%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        label {
+            padding: 10px;
+        }
+
+        button {
+            scale: 1.2;
+            margin-top: 40px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <ul>
+            <li><a href="page1.html">Pagina 1</a></li>
+            <li><a href="page2.html">Pagina 2</a></li>
+            <li><a href="page3.html">Pagina 3</a></li>
+        </ul>
+        <h1>CONTACTO</h1>
+    </div>
+    <div>
+        <form>
+            <h2>FORMULARIO DE CONTACTO</h2>
+            <label for="Email">Email</label>
+            <input type="email" value="Email...">
+            <label for="Nombre">Nombre</label>
+            <input type="nombre" value="Nombre...">
+            <label for="Apellidos">Apellidos</label>
+            <input type="apellidos" value="Apellidos...">
+            <label for="Edad">Edad</label>
+            <input type="edad" value="Edad...">
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <footer class="footer">
+        <p>Alejandro Aranda Galán 2ºDAW<br><br>
+        Desarrollo Web Entorno Cliente</p>
+    </footer>
+</body>
+</html>
