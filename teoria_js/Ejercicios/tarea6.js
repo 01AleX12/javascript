@@ -13,8 +13,8 @@ num2 = parseInt(num2);
 num3 = parseInt(num3);
 
 //si todos los numeros son distintos selecciona el mayor y si no te lo exije
-if (num1 != num2 && num1 != num3) {
-    alert('El numero mayor es ' + Math.max(num1, num2, num3))
+if (num1 != num2 && num1 != num3 && num2 != num3) {
+    alert('El número mayor es ' + Math.max(num1, num2, num3));
 } else {
-    alert('Todos los numeros deben de ser distintos')
+    alert('Todos los números deben ser distintos.');
 }
