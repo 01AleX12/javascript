@@ -6,7 +6,7 @@ function Cliente(nombre, saldo) {  // Definimos una función constructora llamad
 }
 
 Cliente.prototype.tipoCliente = function() {  // Agregamos un método al prototipo de "Cliente" llamado "tipoCliente", 
-                                               // que permite determinar el tipo de cliente basado en su saldo.
+// que permite determinar el tipo de cliente basado en su saldo.
     let tipo;  // Declaramos una variable "tipo" para almacenar el tipo de cliente.
 
     if(this.saldo > 10000) {  // Si el saldo es mayor a 10000, el cliente es "Gold".
